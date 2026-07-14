@@ -1,0 +1,67 @@
+.header {
+    position: relative;
+    background: var(--background-color-primary);
+}
+
+.container_header {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 64px;
+    padding-inline: 20px;
+    align-items: center;
+}
+.logo {
+    padding-right: 133px;
+}
+.nav > ul {
+    display: flex;
+    column-gap: 60px;
+}
+
+
+.buttonclick {
+    margin-left: auto
+}
+.firstButton {
+    padding: 12px 24px 12px 24px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    transition: background 1s;
+    
+    &:hover {
+        background: #000;
+        color: #ffffff;
+    }
+}
+
+
+.dropmenu {
+    position: relative;
+}
+
+.dropmenu-open {
+    position: absolute;
+    left: 0;
+    top:40px;
+    display: none;
+    min-width: 100px;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.dropmenu-open li a {
+    padding: 10px 15px;
+    display: block;
+    transition:  0.3s;
+    color: #000;
+}
+
+.dropmenu-open li a:hover {
+    text-decoration: underline;
+}
+
+.dropmenu:hover .dropmenu-open:hover {
+    display: flex;
+}
