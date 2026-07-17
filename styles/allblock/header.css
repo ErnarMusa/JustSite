@@ -1,6 +1,7 @@
 .header {
     position: relative;
     background: var(--background-color-primary);
+    overflow: hidden;
 }
 
 .container_header {
@@ -64,4 +65,40 @@
 
 .dropmenu:hover .dropmenu-open {
     display: flex;
+}
+
+.container_swiper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Podcast_rightImg {
+    position: absolute;
+    right: 0;
+    top: 73px;
+}
+.Podcast_leftImg {
+    position: absolute;
+    left: 0;
+    top:-73px;
+}
+.h1_Podcast {
+    font-size: 96px;
+    padding-bottom: 45px;
+    align-items: center;
+    line-height: 100%;
+}
+.podcast_red {
+    color: #CD4631;
+}
+
+.Podcast_content {
+    text-align: center;
+}
+
+.paragrahf_Podcast {
+    font-weight: var(--font-weight-medium);
+    padding-bottom:245px;
+    font-size: 16px;
 }

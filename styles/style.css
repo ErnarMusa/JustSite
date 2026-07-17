@@ -19,3 +19,16 @@ body {
     --background-color-primary: #f7ede8;
     --background-color-secondary: #edf3f7;
 }
+
+.splide__list {
+    display: flex;
+    column-gap: 20px;
+}
+
+.splide__slide {
+    min-width: 373px;
+}
+
+.splide__arrow--next, .splide__arrow--prev{
+    display: none;
+}
